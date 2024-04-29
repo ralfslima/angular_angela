@@ -1,0 +1,33 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Ralf",
+      "email": "contato@ralflima.com",
+      "senha": "123"
+    },
+    {
+      "nome": "Larissa",
+      "email": "lari@gmail.com",
+      "senha": "abc",
+      "id": 2
+    }
+  ],
+  "contas": [
+    {
+      "nome": "Energia",
+      "valor": 300,
+      "id": 1
+    },
+    {
+      "nome": "Luz",
+      "valor": 300,
+      "id": 2
+    },
+    {
+      "nome": "Mercado",
+      "valor": 400,
+      "id": 3
+    }
+  ]
+}

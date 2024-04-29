@@ -1,0 +1,23 @@
+<!-- Conteúdo principal -->
+<main class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form [formGroup]="formularioCritarConta">
+                <h1>Criar conta</h1>
+                <input type="text" name="nome" formControlName="nome" placeholder="Nome" class="form-control">
+                <input type="text" name="email" formControlName="email" placeholder="E-mail" class="form-control">
+                <input type="password" name="email" formControlName="senha" placeholder="Senha" class="form-control">
+                <input type="button" value="Criar conta" class="btn btn-primary" (click)="criarConta()">
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <form [formGroup]="formularioAutenticar">
+                <h1>Entrar</h1>
+                <input type="text" name="email" formControlName="email" placeholder="E-mail" class="form-control">
+                <input type="password" name="email" formControlName="senha" placeholder="Senha" class="form-control">
+                <input type="button" value="Entrar" class="btn btn-primary" (click)="autenticar()">
+            </form>
+        </div>
+    </div>
+</main>
